@@ -109,3 +109,26 @@ a {
         flex-direction: column;
     }    
 }
+
+form input, textarea {
+    margin: 2px 0;
+}
+
+form p {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+form label {
+    flex-basis: 33%
+}
+
+form input, textarea, select {
+    flex: 1;
+    margin: 0 1em;
+    border-radius: 5px;
+}
+
+form select {
+    text-align: center;
+}

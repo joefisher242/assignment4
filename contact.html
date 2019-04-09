@@ -24,16 +24,59 @@
 
     <main>
        
-        <form>
-            
+        <form action="thankyou.html">
             <p>Please fill out this information:</p>
-            <label for="firstname">First Name:</label>
-            <input type="text" name="firstname" id="firstname">
-            <label for="lastname">Last Name:</label>
-            <input type="text" name="lastname" id="lastname">
-            <label for="email">Email:</label>
-            <input type="text" name="email" id="email">
-        
+            <p>
+                <label for="firstname">First Name:</label>    
+                <input type="text" name="firstname" id="firstname">
+            </p>    
+            <p>
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+            </p>
+            
+            <p>
+                <label for="how-you-heard">How did you hear about us?</label>
+                <select name="how-you-heard" id="how-you-heard">
+                    <option value="friend">Friend</option>
+                    <option value="email">Email</option>
+                    <option value="ad">Advertisement</option>
+                    <option value="web">Website</option>
+                    <option value="search">Google Search</option>
+                </select>
+            </p>
+            
+            <p>
+                <label for="comments">Comments:</label>
+                <textarea name="comments" id="comments" rows="4" cols="48"></textarea>
+            </p>
+            
+            <div class="radio-buttons">
+                <label for="join-our-newsletter">Would you like to join our newsletter?</label>
+                <input type="radio" name="join-our-newsletter" value="Yes" checked> Yes
+                <input type="radio" name="join-our-newsletter" value="No"> No
+            </div>
+            <br>
+            
+            <div class="checkboxes">
+                <label for="devices-used">What type of devices do you use?</label>
+                <input type="checkbox" name="devices-used" value="iPhone" checked>iPhone
+                <input type="checkbox" name="devices-used" value="Android">Android
+                <input type="checkbox" name="devices-used" value="Computer">Computer
+                <input type="checkbox" name="devices-used" value="Tablet">Tablet
+            </div>
+            <br>
+            
+            <p>
+                <label></label>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">        
+            </p>
+            
         </form>
         
 

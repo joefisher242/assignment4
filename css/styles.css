@@ -105,7 +105,8 @@ a {
 @media screen and (max-width: 30rem) {
     header,
     main,
-    footer {
+    footer,
+    form p {
         flex-direction: column;
     }    
 }
